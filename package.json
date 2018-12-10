@@ -4,6 +4,22 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "3.x"
+    "@microsoft/microsoft-graph-client": "^1.0.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.8",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "hooks": "^0.3.2",
+    "moment": "^2.21.0",
+    "morgan": "^1.9.0",
+    "oauth": "^0.9.15",
+    "passport": "^0.4.0",
+    "passport-azure-ad": "^3.0.12",
+    "path": "^0.12.7",
+    "simple-oauth2": "^1.5.0",
+    "superagent": "^3.8.2",
+    "uid": "0.0.2"
   }
 }

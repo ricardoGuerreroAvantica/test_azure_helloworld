@@ -4,8 +4,6 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "^4.16.2",
-    "@microsoft/microsoft-graph-client": "^1.0.0",
-    "axios": "^0.18.0"
+    "express": "^4.16.2"
   }
 }

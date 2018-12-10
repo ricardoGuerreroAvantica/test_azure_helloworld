@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "express": "^4.16.2",
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "@microsoft/microsoft-graph-client": "^1.0.0"
   }
 }

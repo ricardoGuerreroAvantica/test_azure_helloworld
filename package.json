@@ -1,13 +1,8 @@
 {
-  "name": "dialog-flow-server",
-  "version": "1.0.0",
-  "description": "dialog flow server",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "hello-world-express",
+  "description": "Hello World test app",
+  "version": "0.0.1",
+  "private": true,
   "dependencies": {
     "@microsoft/microsoft-graph-client": "^1.0.0",
     "axios": "^0.18.0",
@@ -26,8 +21,5 @@
     "simple-oauth2": "^1.5.0",
     "superagent": "^3.8.2",
     "uid": "0.0.2"
-  },
-  "devDependencies": {
-    "nodemon": "^1.12.1"
   }
 }

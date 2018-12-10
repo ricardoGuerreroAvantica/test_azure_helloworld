@@ -19,39 +19,12 @@ app.use(session({
   saveUninitialized: false
 }));
 
-app.use(express.static(__dirname + '/public'));
-// app.set('views', __dirname + '/views');
-// app.engine('html', require('ejs').renderFile);
-// app.set('view engine', 'html');
+// Routes
 app.get('/', function(req, res) {
   res.send('HI THERE');
 });
-// app.use(function (req, res, next) {
-//   var err = new Error('Not Found');
-//   err.status = 404;
-//   next(err);
-// });
 
-/* if (app.get('env') === 'development') {
-  app.use(function (err, req, res) {
-    res.status(err.status || 500);
-    return res.json('error', {
-      message: err.message,
-      error: err
-    });
-  });
-}
-
-app.use(function (err, req, res) {
-  res.status(err.status || 500);
-  return res.json('error', {
-    message: err.message,
-    error: {}
-  });
-}); */
-
-module.exports = app;
-
-app.listen(process.env.PORT || 3000, () => {
-  console.log("Server up and listening");
-})
+// Listen
+var port = process.env.PORT || 3000;
+app.listen(port);
+console.log('Listening on localhost:'+ port);

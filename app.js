@@ -23,9 +23,9 @@ app.use(express.static(__dirname + '/public'));
 // app.set('views', __dirname + '/views');
 // app.engine('html', require('ejs').renderFile);
 // app.set('view engine', 'html');
-
-app.use('/', routes);
-
+app.get('/', function(req, res) {
+  res.send('HI THERE');
+});
 // app.use(function (req, res, next) {
 //   var err = new Error('Not Found');
 //   err.status = 404;

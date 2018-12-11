@@ -12,6 +12,6 @@ app.get('/', function (req, res) {
   res.send(config.message||'Hello World!')
 })
 
-app.listen(config.port, function () {
-  console.log('listening on port ' + String(config.port||3000))
+app.listen(process.env.PORT || 3000, () => {
+  console.log("Server up and listening");
 })

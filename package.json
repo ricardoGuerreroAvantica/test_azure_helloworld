@@ -9,6 +9,7 @@
   "author": "expressjs.com team and Viv Labs",
   "license": "CC-BY-NC-SA-3.0",
   "dependencies": {
+    "@microsoft/microsoft-graph-client": "^1.0.0",
     "express": "^4.14.0"
   }
 }
